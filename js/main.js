@@ -29,6 +29,15 @@
             $('.carousel, .page-header').css("margin-top", "0");
         }
     });
+
+ 
+        if ($(window).width() < 992) {
+            $('.top-bar').css("height", "60px");
+        }
+
+    
+
+
     
     
     // Dropdown on mouse hover

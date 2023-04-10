@@ -77,8 +77,12 @@ a:focus {
 /**********************************/
 .top-bar {
     position: relative;
-    height: 90px;
+    height: 70px;
     background: #fdbe33;
+}
+.top-bar h2{
+    font-family: Copperplate;
+    font-weight: 600px;
 }
 
 .top-bar .logo {
@@ -1731,6 +1735,7 @@ a:focus {
     display: inline-block;
     line-height: 23px;
 }
+
 
 .sidebar .category-widget ul li::before {
     position: absolute;
