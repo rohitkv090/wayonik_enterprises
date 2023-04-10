@@ -1984,7 +1984,7 @@ a:focus {
 .contact .contact-text p {
     margin: 0;
     color: #ffffff;
-    font-size: 16px;
+    font-size: smaller;
 }
 
 .contact .contact-item:last-child {
