@@ -81,8 +81,8 @@ a:focus {
     background: #fdbe33;
 }
 .top-bar h2{
-    font-family: Copperplate;
-    font-weight: 600px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
 }
 
 .top-bar .logo {
