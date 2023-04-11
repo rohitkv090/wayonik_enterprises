@@ -80,9 +80,11 @@ a:focus {
     height: 70px;
     background: #fdbe33;
 }
+
 .top-bar h2{
-    font-family: 'Poppins', sans-serif;
+    font-family: lucida sans unicode;
     font-weight: bold;
+    font-size: 40px;
 }
 
 .top-bar .logo {
