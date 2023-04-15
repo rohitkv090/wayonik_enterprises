@@ -77,7 +77,7 @@ a:focus {
 /**********************************/
 .top-bar {
     position: relative;
-    height: 70px;
+    height: 65px;
     background: #fdbe33;
 }
 
@@ -87,12 +87,15 @@ a:focus {
     overflow: hidden;
 }
 
+
+
 .top-bar .logo h2 {
     margin: 0;
     color: #030f27;
     font-size: 30px;
     line-height: 60px;
     font-weight: 700;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
 }
 
 .top-bar .logo img {
