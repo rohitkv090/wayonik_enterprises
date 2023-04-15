@@ -31,8 +31,8 @@
     });
 
  
-        if ($(window).width() < 992) {
-            $('.top-bar').css("height", "60px");
+        if ($(window).width() > 992) {
+            $('.top-bar .logo h2').css("font-size", "35px");
         }
 
     
