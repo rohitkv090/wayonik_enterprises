@@ -32,7 +32,7 @@
 
  
         if ($(window).width() > 992) {
-            $('.top-bar .logo h2').css("font-size", "35px");
+            $('.top-bar .logo h2').css("font-size", "32px");
         }
 
     
