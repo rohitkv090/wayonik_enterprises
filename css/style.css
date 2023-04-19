@@ -95,7 +95,7 @@ a:focus {
     font-size: 30px;
     line-height: 60px;
     font-weight: 700;
-    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    font-family: 'Poppins', sans-serif;
 }
 
 .top-bar .logo img {
