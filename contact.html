@@ -25,6 +25,29 @@
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        <script type="text/javascript">
+            (function() {
+                emailjs.init('xcwuqSSRuMFNISsBu');
+            })();
+        </script>
+        <script type="text/javascript">
+            window.onload = function() {
+                document.getElementById('contactForm').addEventListener('submit', function(event) {
+                    event.preventDefault();
+                    emailjs.send('service_l9mwi8z', 'template_6hguskk', {to_name: 'Wayonik Enterprises', from_name: document.getElementById('name').value, message: document.getElementById('message').value, reply_to: document.getElementById('email').value})
+                        .then(function() {
+                            console.log('SUCCESS!');
+                            alert("Your message has been sent successfully. We will contact you soon.");
+                        }, function(error) {
+                            console.log('FAILED...', error);
+                            alert("Sorry! Your message could not be sent. Please try again later.");
+                        }
+                    );
+                });
+            }
+        </script>
     </head>
 
     <body>
@@ -146,7 +169,6 @@
                         </div>
                         <div class="col-md-6">
                             <div class="contact-form">
-                                <div id="success"></div>
                                 <form name="sentMessage" id="contactForm" novalidate="novalidate">
                                     <div class="control-group">
                                         <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
@@ -223,7 +245,6 @@
         
         <!-- Contact Javascript File -->
         <script src="mail/jqBootstrapValidation.min.js"></script>
-        <script src="mail/contact.js"></script>
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
