@@ -36,7 +36,7 @@
             window.onload = function() {
                 document.getElementById('contactForm').addEventListener('submit', function(event) {
                     event.preventDefault();
-                    emailjs.send('service_l9mwi8z', 'template_6hguskk', {to_name: 'Wayonik Enterprises', from_name: document.getElementById('name').value, message: document.getElementById('message').value, reply_to: document.getElementById('email').value})
+                    emailjs.send('service_a114jy9', 'template_6hguskk', {to_name: 'Wayonik Enterprises', from_name: document.getElementById('name').value, message: document.getElementById('message').value, reply_to: document.getElementById('email').value})
                         .then(function() {
                             console.log('SUCCESS!');
                             alert("Your message has been sent successfully. We will contact you soon.");
